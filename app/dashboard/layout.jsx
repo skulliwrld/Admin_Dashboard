@@ -1,6 +1,7 @@
 import React from 'react'
 import SideBar from '@/components/ui/dashboard/SideBar'
 import NavBar from '@/components/ui/dashboard/NavBar'
+import Footer from '@/components/ui/dashboard/Footer'
 
 function layout({children}) {
   return (
@@ -11,6 +12,7 @@ function layout({children}) {
         <div className='md:col-span-9'>
             <NavBar />
             {children}
+            <Footer />
         </div>
     </div>
   )

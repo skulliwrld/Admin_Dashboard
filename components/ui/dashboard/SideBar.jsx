@@ -1,5 +1,5 @@
 import React from 'react'
-import { MenuData } from '@/components/Menu'
+import { MenuData } from '@/components/Data'
 import MenuLinks from './MenuLinks'
 import Image from 'next/image'
 

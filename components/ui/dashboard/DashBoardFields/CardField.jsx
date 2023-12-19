@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardDetails } from '@/components/Menu'
+import { CardDetails } from '@/components/Data'
 
 export const CardSchema = ({content}) =>{
   return(
